@@ -1,0 +1,12 @@
+create table customer
+(
+    cust_id number(10),
+    cust_name varchar(20),
+    cust_number number(10),
+    dob date,
+    city varchar2(20),
+    email varchar2(30)
+);
+
+insert into customer
+values (11101,'bose',8596741230,to_date('01/12/2002','dd/mm/yyyy'),'chennai','bose3435@gmail.com');
